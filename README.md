@@ -1,18 +1,70 @@
 # DH25CS03 - Phone Shop Website
 
-Trang web bán điện thoại và phụ kiện - đồ án nhóm DH25CS03.
+**🔗 Demo:** https://astrocybervn.github.io/DH25CS03/
 
-## Thành viên
+Trang web bán điện thoại và phụ kiện — đồ án nhóm DH25CS03.
 
-| Thành viên | Trang phụ trách       |
-|------------|-----------------------|
-| Kỳ Quang   | Trang chủ             |
-| Minh Đức   | Chi tiết sản phẩm     |
-| Nhất Duy   | Giỏ hàng              |
-| Anh Khoa   | Liên hệ               |
-| Thành Hiệp | Sản phẩm              |
-| Nhật Minh  | Danh sách thành viên  |
-| Minh Nhật  | Javascript + Tổng hợp |
+---
+
+## 5W1H — Mô tả ứng dụng / giải pháp
+
+| | | |
+|---|---|---|
+| **What** | Website thương mại điện tử bán điện thoại & phụ kiện gaming chính hãng |
+| **Why** | Đáp ứng nhu cầu mua sắm trực tuyến, giải quyết bài toán đồ án môn học |
+| **Who** | Nhóm DH25CS03 — 7 thành viên |
+| **When** | Học kỳ 2025 - 2026 |
+| **Where** | Trường Đại học Mở TP.HCM |
+| **How** | Xây dựng bằng HTML, CSS, JavaScript thuần + jQuery, lưu trữ dữ liệu bằng localStorage |
+
+---
+
+## Timeline — Checklist — Task
+
+### Timeline
+
+| Giai đoạn | Thời gian | Công việc |
+|-----------|-----------|-----------|
+| Lên ý tưởng | Tuần 1 | Phân tích yêu cầu, thiết kế giao diện (Figma) |
+| Phát triển | Tuần 2 — 3 | Xây dựng trang Home, Product, Detail, Cart, Contact |
+| Hoàn thiện | Tuần 4 | Kết nối giỏ hàng, form liên hệ, kiểm tra tổng thể |
+| Báo cáo | Tuần 5 | Viết README, nộp đồ án |
+
+### Checklist
+
+- [x] Trang chủ (Home)
+- [x] Trang sản phẩm (Product) — danh sách điện thoại + phụ kiện
+- [x] Trang chi tiết sản phẩm (Detail) — màu sắc, dung lượng, số lượng
+- [x] Trang giỏ hàng (Cart) — thêm, xoá, sửa số lượng
+- [x] Trang liên hệ (Contact) — form gửi yêu cầu hỗ trợ
+- [x] Trang quản lý yêu cầu (Admin) — xem danh sách hỗ trợ
+- [x] Trang thành viên (Member) — thông tin nhóm
+- [x] Header / Footer dùng chung
+- [x] Cấu hình tập trung qua `config.js`
+- [x] Giỏ hàng dùng `localStorage`
+- [x] Form liên hệ lưu `localStorage`
+
+### Task — Phân công
+
+| Thành viên | Trang phụ trách |
+|------------|----------------|
+| Đoàn Lữ Kỳ Quang | Trang chủ (Home) |
+| Huỳnh Duy Minh Đức | Chi tiết sản phẩm (Detail) |
+| Nguyễn Nhất Duy | Giỏ hàng (Cart) |
+| Trần Hoàng Anh Khoa | Liên hệ (Contact) |
+| Trần Thành Hiệp | Sản phẩm (Product) |
+| Hồ Nhật Minh | Danh sách thành viên (Member) |
+| Đặng Minh Nhật | Javascript + Tổng hợp |
+
+---
+
+## Wireframe / UI
+
+- **Wireframe:** [Figma — Chưa có]
+- **UI Mockup:** [Figma — Chưa có]
+- **Giao diện:** Thiết kế theo phong cách tối giản, màu chủ đạo Đen + Trắng + Xám, button xanh dương `#0071E3`
+
+---
 
 ## Cấu trúc thư mục
 
@@ -29,7 +81,7 @@ DH25CS03/
 │   └── footer.html
 │
 ├── images/
-│   ├── products/           # Ảnh sản phẩm (kebab-case)
+│   ├── products/           # Ảnh sản phẩm
 │   └── team/               # Ảnh thành viên
 │
 ├── pages/
@@ -43,8 +95,24 @@ DH25CS03/
 └── videos/
 ```
 
+---
+
+## Công nghệ sử dụng
+
+| Công nghệ | Mục đích |
+|-----------|----------|
+| HTML5 | Cấu trúc trang web |
+| CSS3 | Thiết kế giao diện (Flexbox, Grid) |
+| JavaScript (ES Module) | Xử lý logic, tương tác |
+| jQuery | Load header/footer |
+| localStorage | Lưu giỏ hàng, lưu yêu cầu hỗ trợ |
+| GitHub Pages | Hosting website |
+
+---
+
 ## Ghi chú
 
 - Cấu hình toàn bộ website nằm trong `config.js`
 - Giỏ hàng dùng `localStorage`
 - Form liên hệ lưu vào `localStorage`, quản lý tại trang admin
+- Header + Footer load bằng jQuery `.load()`
