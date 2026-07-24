@@ -25,14 +25,14 @@ const ACCESSORY_SPEC_MAP = {
 
 const PRODUCT_GALLERY = {
     "phone-01": [
-        "/images/products/iphone-15-pro-max-1.jpg",
-        "/images/products/iphone-15-pro-max-2.jpg",
-        "/images/products/iphone-15-pro-max-3.jpg",
-        "/images/products/iphone-15-pro-max-list.jpg",
+        "images/products/iphone-15-pro-max-1.jpg",
+        "images/products/iphone-15-pro-max-2.jpg",
+        "images/products/iphone-15-pro-max-3.jpg",
+        "images/products/iphone-15-pro-max-list.jpg",
     ],
     "phone-04": [
-        "/images/products/oppo-find-x7-ultra-1.jpg",
-        "/images/products/oppo-find-x7-ultra-2.jpg",
+        "images/products/oppo-find-x7-ultra-1.jpg",
+        "images/products/oppo-find-x7-ultra-2.jpg",
     ],
 };
 
@@ -44,9 +44,8 @@ function formatPrice(amount) {
 }
 
 function getCurrentPrice() {
-    if (CONFIG.salesOff > 0) {
+    if (CONFIG.salesOff > 0)
         return currentProduct.price * (1 - CONFIG.salesOff / 100);
-    }
     return currentProduct.price;
 }
 
@@ -237,7 +236,7 @@ function addToCartHandler() {
 
 function buyNowHandler() {
     addToCart(currentProduct, getCartOptions());
-    window.location.href = "/pages/cart/cart.html";
+    window.location.href = "../cart/cart.html";
 }
 
 function start() {

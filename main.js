@@ -48,8 +48,8 @@ async function loadComponent(url, placeholderId) {
 }
 
 async function start() {
-    await loadComponent('/components/header.html', 'header-placeholder');
-    await loadComponent('/components/footer.html', 'footer-placeholder');
+    await loadComponent('components/header.html', 'header-placeholder');
+    await loadComponent('components/footer.html', 'footer-placeholder');
 
     setTitleText();
     setSalesOffText();

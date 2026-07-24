@@ -42,7 +42,7 @@ clearBtn.addEventListener("click", () => {
 });
 
 document.getElementById("backBtn").addEventListener("click", () => {
-    window.location.href = "/pages/contact/contact.html";
+    window.location.href = "../contact/contact.html";
 });
 
 renderTable();

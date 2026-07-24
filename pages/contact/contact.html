@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/DH25CS03/">
     <title>Liên Hệ - TechNo Store</title>
 
-    <link rel="stylesheet" href="/main.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="pages/contact/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <script type="module" src="/main.js"></script>
-    <script type="module" src="contact.js"></script>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="pages/contact/contact.js"></script>
 </head>
 <body>
     <div id="header-placeholder"></div>
@@ -61,7 +62,7 @@
                     </div>
 
                     <input type="submit" value="Gửi tin nhắn">
-                    <input type="button" value="Xem yêu cầu đã gửi" onclick="window.location.href='/pages/admin/admin.html'">
+                    <input type="button" value="Xem yêu cầu đã gửi" onclick="window.location.href='../admin/admin.html'">
                 </form>
             </div>
 
@@ -106,8 +107,7 @@
     <div id="footer-placeholder"></div>
 
     <script>
-        document.getElementById("workingHours").textContent =
-            "08:00 - 21:00 (Thứ 2 - Chủ Nhật)";
+        document.getElementById("workingHours").textContent = "08:00 - 21:00 (Thứ 2 - Chủ Nhật)";
     </script>
 </body>
 </html>

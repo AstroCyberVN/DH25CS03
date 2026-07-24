@@ -38,7 +38,7 @@ function createProductCard(product) {
                 ${oldPriceHtml}
             </div>
             <div class="pcard-actions">
-                ${hasDetail ? `<a href="/pages/detail/detail.html?id=${product.id}" class="pcard-btn-detail">Xem chi tiết</a>` : ""}
+                ${hasDetail ? `<a href="pages/detail/detail.html?id=${product.id}" class="pcard-btn-detail">Xem chi tiết</a>` : ""}
                 <button class="pcard-btn-cart" data-product-id="${product.id}">
                     Thêm vào giỏ
                 </button>
