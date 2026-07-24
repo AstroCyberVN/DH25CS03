@@ -11,9 +11,9 @@ Trang web bán điện thoại và phụ kiện — dự án nhóm.
 |           |                                                                                       |
 |-----------|---------------------------------------------------------------------------------------|
 | **What**  | Website thương mại điện tử bán điện thoại & phụ kiện gaming chính hãng                |
-| **Why**   | Đáp ứng nhu cầu mua sắm trực tuyến, giải quyết bài toán đồ án môn học                 |
+| **Why**   | Đáp ứng nhu cầu mua sắm trực tuyến                                                    |
 | **Who**   | Nhóm DH25CS03 — 7 thành viên                                                          |
-| **When**  | Học kỳ 2025 - 2026                                                                    |
+| **When**  |                                                                                       |
 | **Where** | Trường Đại học Mở TP.HCM                                                              |
 | **How**   | Xây dựng bằng HTML, CSS, JavaScript thuần + jQuery, lưu trữ dữ liệu bằng localStorage |
 
