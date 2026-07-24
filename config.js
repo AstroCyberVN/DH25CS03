@@ -6,9 +6,6 @@ export const CONFIG = {
     salesTitle: "Ưu đãi tháng 7",
     salesOff: 50,
 
-    currency: "₫",
-    currencyLocale: "vi-VN",
-
     address: "1125 Nguyễn Bình, Xã Hiệp Phước, TP. Hồ Chí Minh",
     hotline: "0123 456 789",
     email: "technostore@gmail.com",
@@ -19,11 +16,6 @@ export const CONFIG = {
         instagram: "https://instagram.com",
         youtube: "https://youtube.com",
         zalo: "https://zalo.me",
-    },
-
-    company: {
-        name: "TechNo Store",
-        taxCode: "1234567890",
     },
 };
 
