@@ -8,6 +8,7 @@ Trang web bán điện thoại và phụ kiện — dự án nhóm.
 
 ## 5W1H — Mô tả ứng dụng / giải pháp
 
+|-----------|---------------------------------------------------------------------------------------|
 | **What**  | Website thương mại điện tử bán điện thoại & phụ kiện gaming chính hãng                |
 | **Why**   | Đáp ứng nhu cầu mua sắm trực tuyến, giải quyết bài toán đồ án môn học                 |
 | **Who**   | Nhóm DH25CS03 — 7 thành viên                                                          |
