@@ -236,7 +236,7 @@ function addToCartHandler() {
 
 function buyNowHandler() {
     addToCart(currentProduct, getCartOptions());
-    window.location.href = "../cart/cart.html";
+    window.location.href = "pages/cart/cart.html";
 }
 
 function start() {
