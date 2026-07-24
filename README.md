@@ -2,20 +2,18 @@
 
 **🔗 Demo:** https://astrocybervn.github.io/DH25CS03/
 
-Trang web bán điện thoại và phụ kiện — đồ án nhóm DH25CS03.
+Trang web bán điện thoại và phụ kiện — dự án nhóm.
 
 ---
 
 ## 5W1H — Mô tả ứng dụng / giải pháp
 
-| | | |
-|---|---|---|
-| **What** | Website thương mại điện tử bán điện thoại & phụ kiện gaming chính hãng |
-| **Why** | Đáp ứng nhu cầu mua sắm trực tuyến, giải quyết bài toán đồ án môn học |
-| **Who** | Nhóm DH25CS03 — 7 thành viên |
-| **When** | Học kỳ 2025 - 2026 |
-| **Where** | Trường Đại học Mở TP.HCM |
-| **How** | Xây dựng bằng HTML, CSS, JavaScript thuần + jQuery, lưu trữ dữ liệu bằng localStorage |
+| **What**  | Website thương mại điện tử bán điện thoại & phụ kiện gaming chính hãng                |
+| **Why**   | Đáp ứng nhu cầu mua sắm trực tuyến, giải quyết bài toán đồ án môn học                 |
+| **Who**   | Nhóm DH25CS03 — 7 thành viên                                                          |
+| **When**  | Học kỳ 2025 - 2026                                                                    |
+| **Where** | Trường Đại học Mở TP.HCM                                                              |
+| **How**   | Xây dựng bằng HTML, CSS, JavaScript thuần + jQuery, lưu trữ dữ liệu bằng localStorage |
 
 ---
 
@@ -23,12 +21,12 @@ Trang web bán điện thoại và phụ kiện — đồ án nhóm DH25CS03.
 
 ### Timeline
 
-| Giai đoạn | Thời gian | Công việc |
-|-----------|-----------|-----------|
-| Lên ý tưởng | Tuần 1 | Phân tích yêu cầu, thiết kế giao diện (Figma) |
-| Phát triển | Tuần 2 — 3 | Xây dựng trang Home, Product, Detail, Cart, Contact |
-| Hoàn thiện | Tuần 4 | Kết nối giỏ hàng, form liên hệ, kiểm tra tổng thể |
-| Báo cáo | Tuần 5 | Viết README, nộp đồ án |
+| Giai đoạn   | Thời gian              | Công việc                                           |
+|-------------|------------------------|-----------------------------------------------------|
+| Lên ý tưởng | Thứ 5 (18h30->19h)     | Phân tích yêu cầu, thiết kế giao diện (Figma)       |
+| Phát triển  | Thứ 5, 6               | Xây dựng trang Home, Product, Detail, Cart, Contact |
+| Hoàn thiện  | Thứ 6                  | Kết nối giỏ hàng, form liên hệ, kiểm tra tổng thể   |
+| Báo cáo     | Thứ 7                  | Viết README                                         |
 
 ### Checklist
 
@@ -46,23 +44,20 @@ Trang web bán điện thoại và phụ kiện — đồ án nhóm DH25CS03.
 
 ### Task — Phân công
 
-| Thành viên | Trang phụ trách |
-|------------|----------------|
-| Đoàn Lữ Kỳ Quang | Trang chủ (Home) |
-| Huỳnh Duy Minh Đức | Chi tiết sản phẩm (Detail) |
-| Nguyễn Nhất Duy | Giỏ hàng (Cart) |
-| Trần Hoàng Anh Khoa | Liên hệ (Contact) |
-| Trần Thành Hiệp | Sản phẩm (Product) |
-| Hồ Nhật Minh | Danh sách thành viên (Member) |
-| Đặng Minh Nhật | Javascript + Tổng hợp |
+| Thành viên          | Trang phụ trách               |
+|---------------------|-------------------------------|
+| Đoàn Lữ Kỳ Quang    | Trang chủ (Home)              |
+| Huỳnh Duy Minh Đức  | Chi tiết sản phẩm (Detail)    |
+| Nguyễn Nhất Duy     | Giỏ hàng (Cart)               |
+| Trần Hoàng Anh Khoa | Liên hệ (Contact)             |
+| Trần Thành Hiệp     | Sản phẩm (Product)            |
+| Hồ Nhật Minh        | Danh sách thành viên (Member) |
+| Đặng Minh Nhật      | Javascript + Tổng hợp         |
 
 ---
 
 ## Wireframe / UI
-
-- **Wireframe:** [Figma — Chưa có]
-- **UI Mockup:** [Figma — Chưa có]
-- **Giao diện:** Thiết kế theo phong cách tối giản, màu chủ đạo Đen + Trắng + Xám, button xanh dương `#0071E3`
+- **Giao diện:** Thiết kế theo phong cách tối giản, màu chủ đạo Đen + Trắng + Xám, button xanh dương
 
 ---
 
@@ -99,14 +94,13 @@ DH25CS03/
 
 ## Công nghệ sử dụng
 
-| Công nghệ | Mục đích |
-|-----------|----------|
-| HTML5 | Cấu trúc trang web |
-| CSS3 | Thiết kế giao diện (Flexbox, Grid) |
-| JavaScript (ES Module) | Xử lý logic, tương tác |
-| jQuery | Load header/footer |
+| Công nghệ    | Mục đích                         |
+|--------------|----------------------------------|
+| HTML5        | Cấu trúc trang web               |
+| CSS          | Thiết kế giao diện               |
+| JavaScript   | Xử lý logic, tương tác           |
 | localStorage | Lưu giỏ hàng, lưu yêu cầu hỗ trợ |
-| GitHub Pages | Hosting website |
+| GitHub Pages | Hosting website                  |
 
 ---
 
