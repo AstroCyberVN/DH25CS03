@@ -1,0 +1,31 @@
+.manager-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table-wrapper { overflow-x: auto; }
+
+.support-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .08);
+}
+
+.support-table th {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.support-table th,
+.support-table td {
+    padding: 14px;
+    border-bottom: 1px solid var(--color-border);
+    text-align: left;
+}
+
+.support-table tbody tr:hover { background: #f8f9fb; }

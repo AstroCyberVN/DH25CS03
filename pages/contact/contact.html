@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - TechNo Store</title>
+
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="contact.js"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Liên hệ với chúng tôi</h1>
+            <p>Chúng tôi luôn sẵn sàng hỗ trợ bạn về sản phẩm và các dịch vụ bảo hành.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact-form">
+                <h2>Gửi tin nhắn</h2>
+
+                <form id="supportForm">
+                    <div class="form-group">
+                        <label for="fullName">Họ và tên *</label>
+                        <input id="fullName" type="text" placeholder="Nhập họ và tên" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input id="email" type="email" placeholder="example@gmail.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Số điện thoại</label>
+                        <input id="phone" type="tel" placeholder="0123456789">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="supportType">Hỗ trợ *</label>
+                        <select id="supportType" required>
+                            <option value="">-- Chọn Trường Hợp --</option>
+                            <option>Tư vấn sản phẩm</option>
+                            <option>Hỏi về đơn hàng</option>
+                            <option>Bảo hành</option>
+                            <option>Đổi trả</option>
+                            <option>Khác</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="content">Nội dung *</label>
+                        <textarea id="content" rows="6" placeholder="Nhập nội dung cần hỗ trợ..." required></textarea>
+                    </div>
+
+                    <input type="submit" value="Gửi tin nhắn">
+                    <input type="button" value="Xem yêu cầu đã gửi" onclick="window.location.href='/pages/admin/admin.html'">
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2>Thông tin liên hệ</h2>
+
+                <div class="info">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <h3>Địa chỉ</h3>
+                        <p id="address"></p>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div>
+                        <h3>Hotline</h3>
+                        <p id="hotline"></p>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                        <h3>Email</h3>
+                        <p id="email"></p>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icon"><i class="fa-solid fa-clock"></i></div>
+                    <div>
+                        <h3>Giờ làm việc</h3>
+                        <p id="workingHours"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        document.getElementById("workingHours").textContent =
+            "08:00 - 21:00 (Thứ 2 - Chủ Nhật)";
+    </script>
+</body>
+</html>

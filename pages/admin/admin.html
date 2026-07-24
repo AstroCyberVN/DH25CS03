@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"></title>
+
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="admin.css">
+
+    <script type="module" src="/main.js"></script>
+    <script defer src="admin.js"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Danh sách yêu cầu hỗ trợ</h2>
+                <p>Tất cả thông tin khách hàng đã gửi.</p>
+            </div>
+
+            <div class="manager-toolbar">
+                <button class="btn btn-outline" id="backBtn">
+                    ← Quay lại trang liên hệ
+                </button>
+                <button id="clearBtn" class="btn btn-outline">
+                    Xóa tất cả
+                </button>
+            </div>
+
+            <div class="table-wrapper">
+                <table class="support-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Thời gian</th>
+                            <th>Họ tên</th>
+                            <th>Email</th>
+                            <th>SĐT</th>
+                            <th>Loại hỗ trợ</th>
+                            <th>Nội dung</th>
+                            <th>Trạng thái</th>
+                        </tr>
+                    </thead>
+                    <tbody id="supportTable"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+</body>
+</html>

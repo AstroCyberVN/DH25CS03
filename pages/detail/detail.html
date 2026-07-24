@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm - TechNo Store</title>
+
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="detail.css">
+
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="detail.js"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <section class="detail-section">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="/index.html">Trang chủ</a>
+                <span class="breadcrumb-sep">›</span>
+                <a href="/pages/product/product.html">Sản phẩm</a>
+                <span class="breadcrumb-sep">›</span>
+                <span class="breadcrumb-category" id="breadcrumbCategory"></span>
+                <span class="breadcrumb-sep">›</span>
+                <span class="breadcrumb-current" id="breadcrumbName"></span>
+            </nav>
+
+            <div class="detail-layout">
+                <div class="detail-gallery">
+                    <div class="detail-main-img">
+                        <img id="productImage" src="" alt="">
+                    </div>
+                    <div class="detail-thumbnails" id="thumbnails"></div>
+                </div>
+
+                <div class="detail-info">
+                    <span class="detail-category" id="detailCategory"></span>
+                    <h1 id="productName"></h1>
+                    <div class="detail-price" id="productPrice"></div>
+
+                    <div id="colorSection" class="detail-option-section" style="display:none;">
+                        <h3>Màu sắc</h3>
+                        <div class="detail-options" id="colorOptions"></div>
+                    </div>
+
+                    <div id="memorySection" class="detail-option-section" style="display:none;">
+                        <h3>Dung lượng</h3>
+                        <div class="detail-options" id="memoryOptions"></div>
+                    </div>
+
+                    <div class="detail-option-section">
+                        <h3>Số lượng</h3>
+                        <div class="detail-quantity">
+                            <button id="qtyMinus">−</button>
+                            <input type="number" id="qtyInput" value="1" min="1" readonly>
+                            <button id="qtyPlus">+</button>
+                        </div>
+                    </div>
+
+                    <div class="detail-actions">
+                        <button class="btn btn-primary" id="addToCartBtn">Thêm vào giỏ hàng</button>
+                        <button class="btn btn-outline" id="buyNowBtn">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-specs" id="specsSection" style="display:none;">
+                <h2>Thông số kỹ thuật</h2>
+                <table id="specsTable"></table>
+            </div>
+
+            <div class="detail-desc" id="descSection" style="display:none;">
+                <h2>Mô tả sản phẩm</h2>
+                <p id="productDescription"></p>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+</body>
+</html>

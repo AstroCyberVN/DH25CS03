@@ -1,0 +1,129 @@
+.banner {
+    min-height: 40vh;
+}
+
+.contact .container {
+    display: grid;
+    grid-template-columns: 1.5fr .9fr;
+    gap: 45px;
+}
+
+.contact-form {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+}
+
+.contact-form h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #1D1D1F;
+}
+
+.form-group { margin-bottom: 22px; }
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    outline: none;
+    transition: .3s;
+    font-size: 15px;
+}
+
+.form-group textarea { resize: none; }
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #0071E3;
+    box-shadow: 0 0 10px rgba(0, 113, 227, .2);
+}
+
+.contact-form input[type="submit"],
+.contact-form input[type="button"] {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    background: #0071E3;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="submit"]:hover,
+.contact-form input[type="button"]:hover {
+    background: #005BB5;
+}
+
+.contact-info {
+    background: #fff;
+    color: #111;
+    border-radius: 18px;
+    padding: 40px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+    height: fit-content;
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.info {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.icon {
+    width: 55px;
+    height: 55px;
+    background: #0071E3;
+    border-radius: 50%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.info h3 { margin-bottom: 8px; }
+
+.info p {
+    color: #1D1D1F;
+    line-height: 1.6;
+}
+
+.contact-form,
+.contact-info { transition: .35s; }
+
+.contact-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
+}
+
+.contact-info:hover { transform: translateY(-5px); }
+
+.info { transition: .3s; }
+.info:hover { transform: translateX(8px); }
+.icon { transition: .3s; }
+.info:hover .icon {
+    background: #005BB5;
+    transform: scale(1.08);
+}

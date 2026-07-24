@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    margin-block: 40px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.info p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.last {
+    grid-column: 1 / 3;
+    width: 50%;
+    justify-self: center;
+}

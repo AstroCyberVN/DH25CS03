@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title id="title"></title>
+
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="cart.css">
+
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="cart.js"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Giỏ hàng của bạn</h2>
+                <p id="cartCount">0 sản phẩm</p>
+            </div>
+
+            <div class="cart-toolbar">
+                <a href="/pages/product/product.html" class="btn btn-outline">
+                    ← Tiếp tục mua hàng
+                </a>
+            </div>
+
+            <section id="cartContent">
+                <div class="cart-header">
+                    <span>Sản phẩm</span>
+                    <span>Đơn giá</span>
+                    <span>Số lượng</span>
+                    <span>Thành tiền</span>
+                    <span>Xóa</span>
+                </div>
+
+                <div id="cartItems"></div>
+
+                <div class="total-box">
+                    <h3>Tổng tiền: <span id="totalPrice">0đ</span></h3>
+                    <button onclick="thanhtoan()">Mua hàng</button>
+                </div>
+            </section>
+
+            <section id="emptyCart" class="empty-cart">
+                <h3>Giỏ hàng đang trống</h3>
+                <p>Hãy thêm sản phẩm từ trang sản phẩm.</p>
+                <a href="/pages/product/product.html" class="btn btn-primary">Xem sản phẩm</a>
+            </section>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+</body>
+</html>
