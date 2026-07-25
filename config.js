@@ -9,14 +9,6 @@ export const CONFIG = {
     address: "1125 Nguyễn Bình, Xã Hiệp Phước, TP. Hồ Chí Minh",
     hotline: "0123 456 789",
     email: "technostore@gmail.com",
-    workingHours: "08:00 - 21:00 (Thứ 2 - Chủ Nhật)",
-
-    social: {
-        facebook: "https://facebook.com",
-        instagram: "https://instagram.com",
-        youtube: "https://youtube.com",
-        zalo: "https://zalo.me",
-    },
 };
 
 export const DETAIL = {

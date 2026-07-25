@@ -52,7 +52,7 @@ Trang web bán điện thoại và phụ kiện — dự án nhóm.
 | Huỳnh Duy Minh Đức  | Chi tiết sản phẩm (Detail)    |
 | Nguyễn Nhất Duy     | Giỏ hàng (Cart)               |
 | Trần Hoàng Anh Khoa | Liên hệ (Contact)             |
-| Trần Thành Hiệp     | Sản phẩm (Product)            |
+| Lê Thành Hiệp       | Sản phẩm (Product)            |
 | Hồ Nhật Minh        | Danh sách thành viên (Member) |
 | Đặng Minh Nhật      | Javascript + Tổng hợp         |
 
@@ -82,14 +82,13 @@ DH25CS03/
 │   └── team/               # Ảnh thành viên
 │
 ├── pages/
-│   ├── product/            # Danh sách sản phẩm
-│   ├── detail/             # Chi tiết sản phẩm
-│   ├── cart/               # Giỏ hàng
-│   ├── contact/            # Liên hệ
-│   ├── admin/              # Quản lý yêu cầu hỗ trợ
-│   └── member/             # Thành viên nhóm
-│
-└── videos/
+    ├── product/            # Danh sách sản phẩm
+    ├── detail/             # Chi tiết sản phẩm
+    ├── cart/               # Giỏ hàng
+    ├── contact/            # Liên hệ
+    ├── admin/              # Quản lý yêu cầu hỗ trợ
+    └── member/             # Thành viên nhóm
+
 ```
 
 ---
@@ -111,4 +110,3 @@ DH25CS03/
 - Cấu hình toàn bộ website nằm trong `config.js`
 - Giỏ hàng dùng `localStorage`
 - Form liên hệ lưu vào `localStorage`, quản lý tại trang admin
-- Header + Footer load bằng jQuery `.load()`
