@@ -2,7 +2,7 @@
 
 **🔗 Demo:** https://astrocybervn.github.io/DH25CS03/
 
-Trang web bán điện thoại và phụ kiện — dự án nhóm.
+Trang web bán điện thoại và phụ kiện — dự án nhóm
 
 ---
 
